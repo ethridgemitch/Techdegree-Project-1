@@ -68,8 +68,8 @@ header {
 }
 header .profile-image {
   margin-top: 50px;
-  width: 125px;
-  height: 125px;
+  width: 175px;
+  height: 175px;
   border-radius: 15%;
   border: 3px solid white;
   transition: all .2s;
