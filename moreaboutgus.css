@@ -58,7 +58,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/Mountains.jpg') no-repeat top center ;
+  background: url('images/gusbackground.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -107,17 +107,23 @@ header .profile-image:hover {
   border-color: black;
 }
 
-.gus-grass {
-  width: 150px;
-  height: 150px;
+.sub-title {
+  text-align: center;
+}
+
+.gus-left {
+  width: 200px;
+  height: 200px;
+  margin: 30px;
   border: 5px solid white;
-  border-radius: 50%;
+  border-radius: 25%;
   display: table;
-  margin-top: 0;
-  margin-bottom: 40px;
-  margin-left: 125px;
-  margin-right: 125;
+  margin-left: 0px;
+  margin-right: 150px;
   box-shadow: 1px 5px 15px #3C454E;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
 }
 
 ul.skills {
@@ -134,7 +140,7 @@ ul.skills {
   margin: 2px;
 }
 
-.skills li:nth-child(odd) {
+.skills li:nth-child(even) {
   background: #3C454E;
 }
 
